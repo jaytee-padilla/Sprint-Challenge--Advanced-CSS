@@ -2,14 +2,16 @@
 // home-page button styling
 .btn-style(@btn-bg-color: @btn-bg-color;
 @text-color: white;
+@width: 100px;
+@padding: 10px;
 
 ) {
     background-color: @btn-bg-color;
     color: @text-color;
     font-size: 1.8rem;
-    padding: 10px;
+    padding: @padding;
     border-radius: 5px;
-    width: 100px;
+    width: @width;
     text-align: center;
     cursor: pointer;
 }

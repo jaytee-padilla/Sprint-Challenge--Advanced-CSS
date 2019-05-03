@@ -85,8 +85,11 @@
         }
 
         @media @phone {
-          width: 100%;
-          padding: 25px;
+          .btn-style(@width: 100%; @padding: 25px);
+
+          &:hover {
+            .btn-style(white; @btn-bg-color; @width: 100%; @padding: 25px);
+          }
         }
       }
 
