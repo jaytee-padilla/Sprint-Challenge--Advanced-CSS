@@ -1,1 +1,29 @@
 // Navigation code here
+.nav-container {
+    background-color: @nav-bg;
+    border-bottom: @nav-border;
+
+    nav {
+        .nav-style();
+
+        h1 {
+            font-size: 4rem;
+            padding: 10px 0;
+        }
+
+        ul {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            font-size: 1.8rem;
+
+            li {
+                padding: 10px 20px;
+                a {
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
+    }
+}
